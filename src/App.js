@@ -13,13 +13,30 @@ class App extends Component {
         </div>
         <div className="Board center h-100 pa2 border bg-light-gray w-100 ma0">
           <div className="boardLeft w-60 center br2 shadow-5 pa2 border bg-dark-gray white justify-between">
-            <div className="classInfo center border w-100 h-100 pa1 justify-around">
-              <div className="classTitle">Class Title</div>
-              <div className="classTime">Class Time</div>
+            <div className="topBoardLeftInfo w-100 h-50">
+              <div className="classInfo center border w-100 h-100 pa1 justify-around">
+                <div className="classTitle border pa1 w-100 h-100">
+                  Class Title
+                </div>
+                <div className="classTime border pa1 w-100 h-100">
+                  Class Time
+                </div>
+              </div>
             </div>
-            <div className="studentInfo center border w-100 h-100 pa1 justify-around">
-              <div className="studentName">Student Name</div>
-              <div className="Reward">Student Reward</div>
+            <div className="bottomBoardLeftInfo w-100 h-50">
+              <div className="studentInfo center border w-50 h-100 pa1 justify-around">
+                <div className="studentName">Student Name</div>
+                <div className="studentAge">Student Age</div>
+                <div className="Location">Location</div>
+              </div>
+              <div className="Reward w-50 border">
+                <div className="Reward border h-50 w-100">
+                  Reward for Student
+                </div>
+                <div className="rewardGraphic border h-50 w-100">
+                  ⭐⭐⭐⭐⭐
+                </div>
+              </div>
             </div>
             <div className="Slides">
               <img

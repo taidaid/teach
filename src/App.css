@@ -19,6 +19,16 @@ img {
   min-width: 400px;
 }
 
+.bottomBoardLeftInfo {
+  display: flex;
+  flex-flow: row;
+}
+
+.studentInfo {
+  display: flex;
+  flex-flow: column;
+}
+
 .border {
   border: solid 2px;
 }
