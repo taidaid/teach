@@ -1,32 +1,60 @@
 .App {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.boardRight {
+  display: flex;
+  flex-flow: column;
+  min-width: 400px;
+}
+
+.border {
+  border: solid 2px;
+}
+
+.Navbar {
+  min-height: 100px;
+}
+
+.Board {
+  display: flex;
+  min-height: 800px;
+}
+
+.Teacher {
+  display: flex;
+  flex-flow: column;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Student {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-flow: column;
+}
+
+.Toolbar {
+  display: flex;
+  flex-flow: column;
+}
+
+.boardLeft {
+  min-width: 600px;
+  display: flex;
+  flex-flow: column;
+}
+
+.boardBottomRight {
+  display: flex;
+  flex-flow: row;
+}
+
+.boardTopRight {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-flow: row;
 }
