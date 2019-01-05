@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React, { Component } from "react";
 import "tachyons";
 import "./App.css";
@@ -33,6 +34,7 @@ class App extends Component {
                 <div className="Reward border h-50 w-100">
                   Reward for Student
                 </div>
+                {/* // eslint-disable-next-line jsx-a11y/accessible-emoji */}
                 <div className="rewardGraphic border h-50 w-100">
                   ⭐⭐⭐⭐⭐
                 </div>

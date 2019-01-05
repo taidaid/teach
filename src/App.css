@@ -3,6 +3,7 @@
   justify-content: center;
   flex-flow: column;
   text-align: center;
+  max-height: 100vh;
   flex-grow: 1;
 }
 img {
