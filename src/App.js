@@ -6,8 +6,9 @@ class App extends Component {
   render() {
     return (
       <div className="App h-100 ma0">
-        <div className="Navbar br2 shadow-5 pa2 ma0 min-h border bg-light-gray justify-between">
+        <div className="Navbar br2 shadow-5 pa2 ma0 min-h border bg-light-gray justify-between items-center">
           <div className="Logo tl ">Logo</div>
+          <div className="companyName fw5 f-5">TEACH</div>
           <div className="Account tr">Account</div>
         </div>
         <div className="Board center h-100 pa2 border bg-light-gray w-100 ma0">
